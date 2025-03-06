@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 //✅(Главен компонент)
 import { useState } from "react";
 import TodoForm from "./TodoForm";
 import Todo from "./Todo";
+import "./TodoForm.css";
 
 function App() {
   const [tasks, setTasks] = useState([]);
