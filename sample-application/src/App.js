@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 //✅(Главен компонент)
 import { useState } from "react";
 import TodoForm from "./TodoForm";
