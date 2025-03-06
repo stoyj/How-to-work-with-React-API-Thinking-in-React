@@ -26,9 +26,6 @@ function App() {
   return (
     //✅Рендериране на компонентите.
     <div>
-      <h1>Todo List</h1>
-      {/* ✅Показва заглавие "Todo List". */}
-
       <TodoForm onAdd={addTask} />
       {/*✅Включва TodoForm, като му подава функцията addTask, за да може да добавя задачи.  */}
       <ul>

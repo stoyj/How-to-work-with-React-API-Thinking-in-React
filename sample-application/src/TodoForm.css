@@ -3,13 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #f3f4f6; /* bg-gray-100 */
+  min-height: 25vh;
+  background-color: #b1b5bd; /* bg-gray-100 */
 }
 
 /* Стилове за самата форма */
 .todo-form {
-  background-color: white;
+  background-color: rgb(223, 29, 29);
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

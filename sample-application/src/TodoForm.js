@@ -37,7 +37,9 @@ function TodoForm({ onAdd }) {
   //✅Рендериране на JSX (HTML структура)
   return (
     //✅Обгражда формата в <div>, за да може да се стилизира с CSS.
+
     <div className="todo-form-container">
+      <h1>Todo List</h1>
       <form onSubmit={handleSubmit} className="todo-form">
         {/* ✅Поле за въвеждане (<input>) */}
         <input
